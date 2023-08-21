@@ -30,6 +30,11 @@ public:
 
 void MatrixProductNaive(const matrix<double>& a, const matrix<double>& b, matrix<double>& c);
 
+void MatrixProductImproved(
+	const matrix<double>& a,
+	const matrix<double>& b,
+	matrix<double>& c);
+
 void PopulateRandomMatrix(size_t size, matrix<double>& m);
 
 template <class T>
