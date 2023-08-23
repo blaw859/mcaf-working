@@ -7,7 +7,8 @@
 
 int main()
 {
-	std::vector<double> times = { 1, 2, 3, 4, 5 };
+	std::vector<double> times;
+	std::iota(times.begin(), times.end(), 1);
 	double PMT = 1000.0;
 	double r = 0.05;
 
