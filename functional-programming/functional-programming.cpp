@@ -2,10 +2,18 @@
 //
 
 #include <iostream>
+#include <vector>j
+#include <algorithm>
 
 template<class F1, class F2=F1>
 auto compose(const F1& f, const F2& g) {
     return [=](const auto& x) {return f(g(x)); };
+}
+
+std::vector<unsigned> generate_vec(const unsigned n) {
+    std::vector<unsigned> result(n);
+    std::generate(result.begin(), result.end(), [counter = 0]() mutable {return counter++; });
+    return result;
 }
 
 int main()

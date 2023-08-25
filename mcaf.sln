@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "matrices", "matrices\matric
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lambda", "lambda\lambda.vcxproj", "{BCDD32FC-B6E3-47C1-9345-0BB4E1B2F159}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "functional-programming", "functional-programming\functional-programming.vcxproj", "{E3860E49-6DF5-4FC5-8A8A-35FF39596EAD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{BCDD32FC-B6E3-47C1-9345-0BB4E1B2F159}.Release|x64.Build.0 = Release|x64
 		{BCDD32FC-B6E3-47C1-9345-0BB4E1B2F159}.Release|x86.ActiveCfg = Release|Win32
 		{BCDD32FC-B6E3-47C1-9345-0BB4E1B2F159}.Release|x86.Build.0 = Release|Win32
+		{E3860E49-6DF5-4FC5-8A8A-35FF39596EAD}.Debug|x64.ActiveCfg = Debug|x64
+		{E3860E49-6DF5-4FC5-8A8A-35FF39596EAD}.Debug|x64.Build.0 = Debug|x64
+		{E3860E49-6DF5-4FC5-8A8A-35FF39596EAD}.Debug|x86.ActiveCfg = Debug|Win32
+		{E3860E49-6DF5-4FC5-8A8A-35FF39596EAD}.Debug|x86.Build.0 = Debug|Win32
+		{E3860E49-6DF5-4FC5-8A8A-35FF39596EAD}.Release|x64.ActiveCfg = Release|x64
+		{E3860E49-6DF5-4FC5-8A8A-35FF39596EAD}.Release|x64.Build.0 = Release|x64
+		{E3860E49-6DF5-4FC5-8A8A-35FF39596EAD}.Release|x86.ActiveCfg = Release|Win32
+		{E3860E49-6DF5-4FC5-8A8A-35FF39596EAD}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
