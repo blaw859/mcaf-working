@@ -4,6 +4,7 @@
 #include <iostream>
 #include <vector>j
 #include <algorithm>
+#include <numeric>
 
 template<class F1, class F2=F1>
 auto compose(const F1& f, const F2& g) {
@@ -14,6 +15,11 @@ std::vector<unsigned> generate_vec(const unsigned n) {
     std::vector<unsigned> result(n);
     std::generate(result.begin(), result.end(), [counter = 0]() mutable {return counter++; });
     return result;
+}
+
+template <class T>
+T accumulate_vec(const std::vector<T>& v) {
+    return std::accumulate(v.begin(), v.end(), T());
 }
 
 int main()
